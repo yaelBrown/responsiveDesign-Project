@@ -1,0 +1,11 @@
+Please complete the following modifications:
+01. Change the color of the header from hexidecimal purple (9933cc) to another color. Use the W3School.com's HTML Color Picker as a reference if you are unfamiliar with hexadecimal colors.
+02. Add your first and last name to the header.
+03. Change the footer to "References available upon request."
+04. Change the navigation to sections you would find on a resume (6-8 sections of your choice).  Education, Skills, Awards, Publications, Organizations are some examples of resume sections.
+05. Add a short career objective.
+06. Add at least three degrees in the aside box on the right side of the page. Include high school to fill in the area if you have less than 2 degrees.
+07. Assign an initial background color (change the background from white to your desired color)
+08. Add a Media Query to change the background to a different color when it reaches the tablet breakpoint you choose. (you may also assign a different color for mobile if desired, but not required)
+09. Change the padding of the navigation menu.
+10. Change the font size of the text in the aside box.
