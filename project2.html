@@ -1,55 +1,62 @@
 
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <link href="./css/normalize.css" rel="stylesheet">    
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
         <style>
+            body: {
+                background-color: green;
+            }
             h1: {
                 color: #6600ff;
             }
-
+            
+            .middle: {
+                background-color: green;
+                border-style: solid;
+                border-width: 1px;
+            }
         </style>
     </head>
     <body>
-        <div>
-        <div>
-        <h1>Yael Brown</h1>
-        </div>
-        <div>
-
-        <div>
-        <ul>
-        <li>Objective</li>
-        <li>Education</li>
-        <li>Skills</li>
-        <li>Awards</li>
-        <li>Previous Jobs</li>
-        <li>Volunteer</li>
-        </ul>
-        </div>
-
-        <div>
-        <h1>Objective</h1>
-        <p>To work someplace challenging where I can improve myself and the company.</p>
-        </div>
-        <div>
-        <div>
-        <h2>What?</h2>
-        <p>Chania is a city on the island of Crete.</p>
-        <h2>Where?</h2>
-        <p>Crete is a Greek island in the Mediterranean Sea.</p>
-        <h2>How?</h2>
-        <p>You can reach Chania airport from all over Europe.</p>
-        </div>
-        </div>
-
-        </div>
-
-        <div>
-        <p>Resize the browser window to see how the content responds to the resizing.</p>
-        </div>
-        <div>
-            <p>References available upon request.</p>
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h1>Yael Brown</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4 middle">
+                    <ul>
+                        <li>Objective</li>
+                        <li>Education</li>
+                        <li>Skills</li>
+                        <li>Awards</li>
+                        <li>Previous Jobs</li>
+                        <li>Volunteer</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h1>Objective</h1>
+                    <p>To work someplace challenging where I can improve myself and the company.</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <h2>What?</h2>
+                    <p>Chania is a city on the island of Crete.</p>
+                    <h2>Where?</h2>
+                    <p>Crete is a Greek island in the Mediterranean Sea.</p>
+                    <h2>How?</h2>
+                    <p>You can reach Chania airport from all over Europe.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p>References available upon request.</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
